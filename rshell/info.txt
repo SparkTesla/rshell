@@ -1,6 +1,6 @@
 name1=Angel Avendano
 ucrnetid1=aaven004
-name2=
-ucrnetid=
+name2=Xiaoxiong Ding
+ucrnetid=xding003@ucr.edu
 repourl=https://www.github.com/SparkTesla/rshell.git
 
