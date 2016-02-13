@@ -1,5 +1,4 @@
 # rshell
-
 RSHELL is an open source project created for the CS100 class assignment at the University of California, Riverside.
 
 ##How to install
@@ -22,11 +21,18 @@ pwd;pwd;pwd
 ```
 
 ##BUGS
-* Still in progress of finding them
+* The problem lies in new processes sprouting after incorrect bash commands resulting in errors.
+	You have to exit from these new processes depending on the number of bash command errors.
 
 ####Example
 ```
-N/A
+$ lls
+$ ps
+$ exit
+$ pss
+$ exit
+$ ps
+$ exit
 ```
 
 ##LICENSE
