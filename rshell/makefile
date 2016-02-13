@@ -13,10 +13,10 @@ CC=g++
 CFLAGS= -Wall -Werror -ansi -pedantic
 
 # build target executable:
-TARGET=rshell
+TARGET=main
 
 all: $(TARGET)
 
-rshell:
+main:
 	mkdir bin
 	$(CC) $(CFLAGS) ./src/$(TARGET).cpp -o ./bin/$(TARGET)
