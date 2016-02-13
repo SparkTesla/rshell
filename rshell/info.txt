@@ -1,0 +1,6 @@
+name1=Angel Avendano
+ucrnetid1=aaven004
+name2=
+ucrnetid=
+repourl=https://www.github.com/SparkTesla/rshell.git
+

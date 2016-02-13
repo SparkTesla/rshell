@@ -17,5 +17,6 @@ TARGET=rshell
 
 all: $(TARGET)
 
-$(TARGET): $(TARGET).cpp
-	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
+rshell:
+	mkdir bin
+	$(CC) $(CFLAGS) ./src/$(TARGET).cpp -o ./bin/$(TARGET)
