@@ -1,8 +1,33 @@
 # rshell
 
-----
+RSHELL is an open source project created for the CS100 class assignment at the University of California, Riverside.
 
-This project emphasizes the construction of a typical bash rshell used by Linux
-users when operating in a terminal. This build will be done in steps of importance
-to let users to utilize bash commands, similar to Bash in Linux machines, and
-execute them. This is a proper and fun guide to build your own rshell.
+##How to install
+Run the following commands to get the source and build the shell:
+```
+git clone https://github.com/SparkTesla/rshell.git
+cd rshell
+make
+bin/rshell
+```
+
+##Functionality
+RSHELL has basic bash command logic with the utilization of combining them with connectors ; && ||
+
+####Example
+```
+ls || ps || pwd
+ps && ls -a ; ls
+pwd;pwd;pwd
+```
+
+##BUGS
+* Still in progress of finding them
+
+####Example
+```
+N/A
+```
+
+##LICENSE
+See LICENSE file for details
